@@ -1,0 +1,95 @@
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="styles.css">
+<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+ 
+  <!-- jQuery CDN Link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>Transparent form</title>
+<style>
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://images.shiksha.com/mediadata/images/1493097580php6Cwlek.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+</style>
+</head>
+ 
+<body>
+<div class="wrapper">
+    <div class="sidebar">
+        <h2>CTMS</h2>
+        <ul>
+            <li><a href="C:/Users/sharm/Desktop/main project/login.html"><i class="fas fa-key"></i>Login</a></li>
+            <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="C:/Users/sharm/Desktop/main project/map.html"><i class="fas fa-map-pin"></i>Routes</a></li>
+            <li><a href="#"><i class="fas fa-address-card"></i>Transcation</a></li>
+               <ul>
+                  <li><a href="https://fee.poornima.edu.in/"><i class="fas fa-project-arrow"></i> Pay Fees</a></li>
+                  <li><a href="#"><i class="fas fa-project-arrow"></i>Fees Routes wise</a></li>
+               </ul>
+            <li><a href="#"><i class="fas fa-project-diagram"></i>Instruction</a></li>
+            <li><a href="#"><i class="fas fa-blog"></i>About Us</a></li>
+        </ul> 
+    </div>
+</div>
+
+  <div class="container">
+    <div class="form">
+      <div class="btn">
+        <button class="signUpBtn">SIGN UP</button>
+        <button class="loginBtn">LOG IN</button>
+      </div>
+      <form class="signUp" action="" method="get">
+        <div class="formGroup">
+          <input type="text" id="userName" placeholder="User Name" autocomplete="off">
+        </div>
+        <div class="formGroup">
+          <input type="email" placeholder="Email ID" name="email" required autocomplete="off">
+        </div>
+        <div class="formGroup">
+          <input type="password" id="password" placeholder="Password" required autocomplete="off">
+        </div>
+        <div class="formGroup">
+          <input type="password" id="confirmPassword" placeholder="Confirm Password" required autocomplete="off">
+        </div>
+      
+        <div class="formGroup">
+          <button type="button" class="btn2">REGISTER</button>
+        </div>
+ 
+      </form>
+        
+      <!------ Login Form -------- -->
+      <form class="login" action="" method="get">
+        
+        <div class="formGroup">
+          <input type="email" placeholder="Email ID" name="email" required autocomplete="off">
+        </div>
+        <div class="formGroup">
+          <input type="password" id="password" placeholder="Password" required autocomplete="off">
+         
+        </div>
+        <div class="checkBox">
+          <input type="checkbox" name="checkbox" id="checkbox">
+          <span class="text">Keep me signed in on this device</span>
+        </div>
+        <div class="formGroup">
+          <button type="button" class="btn2">REGISTER</button>
+        </div>
+ 
+      </form>
+ 
+    </div>
+  </div>
+ 
+  <script src="login.js"></script>
+</body>
+ 
+</html>
